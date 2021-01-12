@@ -20,7 +20,7 @@
 
 * Evaluate the first `ns` form:
 
-    ```
+    ```clojure
     (ns user
       (:require [literate.server :as server]
                 [literate.client.core :as literate]
@@ -31,7 +31,7 @@
 
 * Evaluate the first form within the `comment` block to start the server:
 
-    ```
+    ```clojure
     (def stop-server (server/run-server {:port 8118}))
     ```
 
@@ -39,7 +39,7 @@
 
 * Evaluate the second from within the `comment` block to prepare a convenience function for the rest of the example:
 
-    ```
+    ```clojure
     (def l (partial literate/view {:url "http://localhost:8118"}))
     ```
 

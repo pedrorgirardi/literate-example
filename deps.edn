@@ -1,0 +1,12 @@
+{:paths ["src/dev/clojure" "src/dev/resources"]
+
+ :deps
+ {org.clojure/clojure {:mvn/version "1.10.1"}
+
+  org.clojure/data.json {:mvn/version "1.0.0"}
+
+  pedrorgirardi/literate.client {:git/url "https://github.com/pedrorgirardi/literate.client"
+                                 :sha "0136b091c621f261d038c28ab5451d1073464a46"}
+
+  pedrorgirardi/literate {:git/url "https://github.com/pedrorgirardi/literate"
+                          :sha "3e0667b03078a7420e867a653429774343b683d7"}}}

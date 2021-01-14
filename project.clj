@@ -15,7 +15,7 @@
                  [pedrorgirardi/literate.client
                   "0136b091c621f261d038c28ab5451d1073464a46"]
                  [pedrorgirardi/literate
-                  "7f1fe48534ce1cb7a8e86df28a482425efb60c7e"]]
+                  "29d9263d6ffa6805873033c5e1405e5ebdde3081"]]
   :git-down {pedrorgirardi/literate.client
              {:coordinates pedrorgirardi/literate.client}
              pedrorgirardi/literate
